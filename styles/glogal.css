@@ -88,9 +88,10 @@ a:hover {
     color: transparent;
 }
 
-ul [role="list"] {
+ul,
+li [role="list"] {
     list-style: none;
-}
+} 
 
 img {
     max-width: 100%;
